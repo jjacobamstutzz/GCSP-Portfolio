@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>About — STUDENT NAME • GCSP Portfolio</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <div class="logo"><a href="index.html">JACOB AMSTUTZ</a></div>
+        <nav class="site-nav" aria-label="Main navigation">
+          <ul>
+            <li><a href="entrepreneurship.html">Entrepreneurship</a></li>
+            <li><a href="interdisciplinary.html">Interdisciplinary</a></li>
+            <li><a href="multicultural.html">Multicultural</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="service-learning.html">Service Learning</a></li>
+            <li><a href="gcsp-experience.html">GCSP Experience</a></li>
+            <li><a class="active" href="index.html">About</a></li>
+          </ul>
+        </nav>
+        <div class="header-right"></div>
+      </div>
+    </header>
+
+    <main class="container about-page">
+      <section class="about-grid">
+        <div class="about-content">
+          <h1>About</h1>
+          <p class="lead">Welcome to my Grand Challenges Scholars Program (GCSP) digital portfolio. This portfolio serves as a space to document and reflect on my academic journey, projects, and experiences as a computer science student at Arizona State University. It highlights my coursework, interdisciplinary learning, and personal growth throughout the GCSP, while also showcasing how my interests and skills continue to evolve over time.</p>
+
+          <p>My name is Jacob Amstutz, and I am majoring in Computer Science at ASU. I am a participant in the Grand Challenges Scholars Program with a thematic focus on Joy of Living, which aligns with my interest in creating technology that improves everyday experiences and quality of life. I was drawn to computer science because I enjoy creating things and solving problems, and I have always had a strong interest in computers and how they work. I am also a Barrett, The Honors College Fellow, which has further shaped my academic experience by emphasizing interdisciplinary learning, research, and intellectual curiosity. This combination of creativity and technical curiosity has motivated me to pursue opportunities that allow me to design, build, and innovate through software and technology.</p>
+
+          <p>This portfolio introduces both who I am and what I aim to accomplish through my academic and professional experiences. Within these pages, you will find reflections on courses such as FSE150, documentation of projects and research, and evidence of my engagement across the GCSP competency areas. As I continue my journey at ASU and beyond, this portfolio will grow to represent my developing skills, interests, and commitment to using computer science to positively impact the lives of others.</p>
+        </div>
+
+        <aside class="profile-card" aria-hidden="true">
+          <div class="photo-wrap">
+            <!-- Primary: use the uploaded JPEG for inline display -->
+            <img src="pictures/picture.jpeg" alt="Jacob Amstutz portrait">
+            <!-- Fallbacks / extras -->
+            <noscript>
+              <img src="assets/images/profile.svg" alt="Professional portrait placeholder">
+            </noscript>
+            <p style="display:none;">If you need the original PDF version, download it <a href="pictures/picture.pdf">here</a>.</p>
+          </div>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <small>© <span id="year"></span> Jacob Amstutz — Grand Challenges Scholars Program</small>
+      </div>
+    </footer>
+
+    <script>
+      // Small UI niceties
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
