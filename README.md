@@ -4,7 +4,7 @@ This is a minimal static portfolio skeleton for a Grand Challenges Scholars Prog
 
 Files created:
 - `index.html` — Home / About page
-- `entrepreneurship.html`, `interdisciplinary.html`, `multicultural.html`, `research.html`, `service-learning.html`, `gcsp-experience.html` — placeholder pages
+- `entrepreneurship.html`, `interdisciplinary.html`, `multicultural.html`, `talent.html`, `social-consciousness.html`, `gcsp-experience.html` — placeholder pages
 - `assets/css/styles.css` — global styles
 - `assets/images/profile.svg` — placeholder profile image
 
